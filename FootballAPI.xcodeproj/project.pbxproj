@@ -14,6 +14,10 @@
 		7D6AD5E11B7FC8370072319D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D6AD5E01B7FC8370072319D /* Images.xcassets */; };
 		7D6AD5E41B7FC8370072319D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D6AD5E21B7FC8370072319D /* LaunchScreen.xib */; };
 		7D6AD5F01B7FC8370072319D /* FootballAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6AD5EF1B7FC8370072319D /* FootballAPITests.m */; };
+		7D6AD6001B7FC8D60072319D /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6AD5FB1B7FC8D60072319D /* Reachability.m */; };
+		7D6AD6011B7FC8D60072319D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6AD5FD1B7FC8D60072319D /* MBProgressHUD.m */; };
+		7D6AD6021B7FC8D60072319D /* NSURL+QueryDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6AD5FF1B7FC8D60072319D /* NSURL+QueryDictionary.m */; };
+		7D6AD6051B7FDC7F0072319D /* ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6AD6041B7FDC7F0072319D /* ListTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,14 @@
 		7D6AD5E91B7FC8370072319D /* FootballAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FootballAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D6AD5EE1B7FC8370072319D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D6AD5EF1B7FC8370072319D /* FootballAPITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FootballAPITests.m; sourceTree = "<group>"; };
+		7D6AD5FA1B7FC8D60072319D /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		7D6AD5FB1B7FC8D60072319D /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		7D6AD5FC1B7FC8D60072319D /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		7D6AD5FD1B7FC8D60072319D /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		7D6AD5FE1B7FC8D60072319D /* NSURL+QueryDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+QueryDictionary.h"; sourceTree = "<group>"; };
+		7D6AD5FF1B7FC8D60072319D /* NSURL+QueryDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+QueryDictionary.m"; sourceTree = "<group>"; };
+		7D6AD6031B7FDC7F0072319D /* ListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewController.h; sourceTree = "<group>"; };
+		7D6AD6041B7FDC7F0072319D /* ListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +97,8 @@
 				7D6AD5D81B7FC8370072319D /* AppDelegate.m */,
 				7D6AD5DA1B7FC8370072319D /* ViewController.h */,
 				7D6AD5DB1B7FC8370072319D /* ViewController.m */,
+				7D6AD6031B7FDC7F0072319D /* ListTableViewController.h */,
+				7D6AD6041B7FDC7F0072319D /* ListTableViewController.m */,
 				7D6AD5DD1B7FC8370072319D /* Main.storyboard */,
 				7D6AD5E01B7FC8370072319D /* Images.xcassets */,
 				7D6AD5E21B7FC8370072319D /* LaunchScreen.xib */,
@@ -96,6 +110,7 @@
 		7D6AD5D31B7FC8370072319D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7D6AD5F91B7FC8AC0072319D /* Additional Classes */,
 				7D6AD5D41B7FC8370072319D /* Info.plist */,
 				7D6AD5D51B7FC8370072319D /* main.m */,
 			);
@@ -117,6 +132,19 @@
 				7D6AD5EE1B7FC8370072319D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D6AD5F91B7FC8AC0072319D /* Additional Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7D6AD5FA1B7FC8D60072319D /* Reachability.h */,
+				7D6AD5FB1B7FC8D60072319D /* Reachability.m */,
+				7D6AD5FC1B7FC8D60072319D /* MBProgressHUD.h */,
+				7D6AD5FD1B7FC8D60072319D /* MBProgressHUD.m */,
+				7D6AD5FE1B7FC8D60072319D /* NSURL+QueryDictionary.h */,
+				7D6AD5FF1B7FC8D60072319D /* NSURL+QueryDictionary.m */,
+			);
+			name = "Additional Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,7 +249,11 @@
 			files = (
 				7D6AD5DC1B7FC8370072319D /* ViewController.m in Sources */,
 				7D6AD5D91B7FC8370072319D /* AppDelegate.m in Sources */,
+				7D6AD6011B7FC8D60072319D /* MBProgressHUD.m in Sources */,
+				7D6AD6051B7FDC7F0072319D /* ListTableViewController.m in Sources */,
+				7D6AD6001B7FC8D60072319D /* Reachability.m in Sources */,
 				7D6AD5D61B7FC8370072319D /* main.m in Sources */,
+				7D6AD6021B7FC8D60072319D /* NSURL+QueryDictionary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
